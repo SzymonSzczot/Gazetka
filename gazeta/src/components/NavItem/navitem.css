@@ -1,0 +1,14 @@
+.nav-item {
+  font-size: 16px;
+  flex: 1;
+  border: 0;
+  background: 0;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.nav-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  color: white;
+  transition: 0.3s;
+}

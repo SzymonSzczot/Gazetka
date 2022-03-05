@@ -1,0 +1,9 @@
+:root {
+  --background-color: rgb(127, 255, 212);
+  --font-color: darkcyan;
+  --font: "Optima";
+}
+
+.content {
+  display: flex;
+}

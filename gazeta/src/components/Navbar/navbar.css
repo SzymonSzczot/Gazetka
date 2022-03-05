@@ -1,0 +1,13 @@
+.navbar {
+  color: black;
+  font-family: var(--font);
+  display: flex;
+  background: rgb(121, 9, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 9, 34, 1) 5%,
+    rgba(255, 0, 14, 1) 100%
+  );
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
