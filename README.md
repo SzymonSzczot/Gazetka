@@ -1,0 +1,2 @@
+# Gazetka
+Strona z artykułami
