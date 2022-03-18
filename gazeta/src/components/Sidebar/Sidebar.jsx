@@ -5,6 +5,7 @@ import SideItem from "../SideItem/SideItem";
 function Sidebar() {
   return (
     <div className="sidebar">
+      <SideItem text="Wszystkie"></SideItem>
       <SideItem text="Sport" />
       <SideItem text="Kultura" />
       <SideItem text="Newsy" />

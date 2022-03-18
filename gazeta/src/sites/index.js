@@ -1,2 +1,5 @@
-import Informations from "./Informations";
-export { Informations };
+import Informations from "./Informations/Informations";
+import Contact from "./Contact/Contact";
+import Gallery from "./Gallery/Gallery";
+import Publish from "./Publish/Publish";
+export { Informations, Contact, Gallery, Publish };
