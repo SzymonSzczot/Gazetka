@@ -1,14 +1,11 @@
 import "./App.css";
-import { Navbar, Sidebar, Articles } from "./components/index.js";
+import { Sidebar, Articles } from "./components/index.js";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <div className="content">
-        <Sidebar />
-        <Articles />
-      </div>
+    <div className="content">
+      <Sidebar />
+      <Articles />
     </div>
   );
 }
