@@ -1,0 +1,10 @@
+.people {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 600px) {
+  .people {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,38 @@
+.person {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  box-shadow: 3px;
+  background-color: #eeee;
+  min-width: fit-content;
+  box-shadow: 3px 3px 0px 5px #e86f66;
+}
+
+.person h3 {
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+
+.person h4 {
+  margin-top: 10px;
+  padding-top: 0;
+  font-weight: 500;
+}
+
+.person img {
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.contact-info {
+  padding-right: 5px;
+  color: #919191;
+}
+
+.data {
+  justify-content: center;
+}
