@@ -5,6 +5,11 @@
   background: 0;
   color: whitesmoke;
   padding: 10px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-item a {

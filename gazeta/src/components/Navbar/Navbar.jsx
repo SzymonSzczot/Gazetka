@@ -1,7 +1,6 @@
 import "./navbar.css";
 import React from "react";
 import NavItem from "../NavItem/NavItem";
-import { Link, Outlet } from "react-router-dom";
 
 function Navbar() {
   return (
