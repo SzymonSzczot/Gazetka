@@ -12,4 +12,5 @@ class DetailsSerializer(serializers.ModelSerializer):
             "email",
             "phone",
             "description",
+            "picture"
         )
