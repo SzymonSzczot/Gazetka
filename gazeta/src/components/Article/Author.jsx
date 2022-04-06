@@ -7,8 +7,10 @@ function Author(props) {
             <div>
                 {props.data.description}
             </div>
-            <div className="phone">
-                tel. {props.data.phone}
+            <div>
+                <div className="phone">
+                    tel. {props.data.phone}
+                </div>
             </div>
         </div>
     </div>;

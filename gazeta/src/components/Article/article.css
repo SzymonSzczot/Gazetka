@@ -31,6 +31,8 @@
   font-weight: 500;
   font-size: 17px;
   padding-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .article-author {
@@ -44,4 +46,8 @@
   flex-direction: column;
   justify-content: right;
   padding: 10px;
+}
+.phone {
+  justify-content: right;
+  padding-top: 3px;
 }
