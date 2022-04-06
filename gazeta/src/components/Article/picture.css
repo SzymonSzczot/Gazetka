@@ -2,3 +2,7 @@
     width: 30%;
     justify-content: center;
 }
+.picture-container {
+    display: flex;
+    justify-content: center;
+}

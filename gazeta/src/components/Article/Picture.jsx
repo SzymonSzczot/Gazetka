@@ -2,7 +2,7 @@ import React from "react";
 import "./picture.css"
 
 function Picture(props) {
-    return <div>
+    return <div className="picture-container">
         <img className="article-picture" src={props.picture}/>
     </div>;
 }

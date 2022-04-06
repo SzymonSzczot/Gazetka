@@ -17,4 +17,31 @@
   margin-bottom: 10px;
   margin-top: 5px;
   font-weight: 800;
+  font-size: 25px;
+  display: flex;
+}
+
+.header {
+  font-weight: 300;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.content-text {
+  font-weight: 500;
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+.article-author {
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+}
+.author-data {
+  border-top: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  padding: 10px;
 }

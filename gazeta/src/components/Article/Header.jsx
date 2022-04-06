@@ -1,7 +1,7 @@
 import React from "react";
 
 function Header(props) {
-    return <div>{props.text}</div>;
+    return <div className="header">{props.text}</div>;
 }
 
 export default Header;
