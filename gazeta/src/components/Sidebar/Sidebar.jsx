@@ -2,17 +2,17 @@ import "./sidebar.css";
 import React from "react";
 import SideItem from "../SideItem/SideItem";
 
-function Sidebar() {
+function Sidebar(props) {
   return (
     <div className="sidebar">
-      <SideItem text="Wszystkie"></SideItem>
-      <SideItem text="Sport" />
-      <SideItem text="Kultura" />
-      <SideItem text="Newsy" />
-      <SideItem text="Plotki" />
-      <SideItem text="Filozofia" />
-      <SideItem text="Historia" />
-      <SideItem text="Historia kobiet" />
+      <SideItem text="Wszystkie" category="all" setter={props.setter}/>
+      <SideItem text="Sport" category="sport" setter={props.setter}/>
+      <SideItem text="Kultura" category="culture" setter={props.setter} />
+      <SideItem text="Newsy" category="news" setter={props.setter} />
+      <SideItem text="Plotki" category="gossip" setter={props.setter} />
+      <SideItem text="Filozofia" category="philosophy" setter={props.setter} />
+      <SideItem text="Historia" category="history" setter={props.setter} />
+      <SideItem text="Historia kobiet" category="women_history" setter={props.setter} />
     </div>
   );
 }

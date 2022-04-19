@@ -16,4 +16,5 @@ class ArticleSerializer(serializers.ModelSerializer):
             "header",
             "picture",
             "author",
+            "category"
         )

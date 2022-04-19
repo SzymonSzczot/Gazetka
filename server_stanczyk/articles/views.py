@@ -7,3 +7,6 @@ from .serializers import ArticleSerializer
 class ArticlesViewSet(viewsets.ModelViewSet):
     queryset = Article.objects.all()
     serializer_class = ArticleSerializer
+    filterset_fields = (
+        "category",
+    )
