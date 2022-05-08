@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'rest_framework',
     "articles",
     "users",
-    "django_filters"
+    "django_filters",
+    "ckeditor"
 ]
 
 REST_FRAMEWORK = {

@@ -1,3 +1,4 @@
+from ckeditor.fields import RichTextField
 from django.conf.global_settings import AUTH_USER_MODEL
 from django.db import models
 
@@ -26,7 +27,7 @@ class Article(models.Model):
     category = models.CharField(choices=CATEGORY_CHOICES, max_length=20, default="")
 
     header = models.CharField(max_length=500, default="")
-    content = models.TextField()
+    content = RichTextField()
 
     author = models.ForeignKey(
         AUTH_USER_MODEL,
