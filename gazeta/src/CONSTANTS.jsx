@@ -1,1 +1,1 @@
-export const DOMAIN = "http://localhost:8000/api/"
+export const DOMAIN = "https://gazeta-stanczyk.pl/api/"

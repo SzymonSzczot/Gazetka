@@ -23,5 +23,7 @@ from server_stanczyk import settings
 urlpatterns = [
     path('api/admin/', admin.site.urls),
     path("api/articles/", include("articles.urls")),
-    path("api/users/", include("users.urls"))
+    path("api/users/", include("users.urls")),
+    path('api/ckeditor/', include('ckeditor_uploader.urls')),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

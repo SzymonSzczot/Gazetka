@@ -7,7 +7,7 @@ class DetailsSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = UserDetails
-        fields = (
+        fields = read_only_fields =(
             "id",
             "email",
             "phone",

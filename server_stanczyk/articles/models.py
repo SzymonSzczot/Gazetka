@@ -36,6 +36,8 @@ class Article(models.Model):
         null=False
     )
     picture = models.ImageField(upload_to="articles/", null=True)
+    class Meta:
+        ordering = ("-id", )
 
     def get_author(self):
         return self.author.details.get_details()
